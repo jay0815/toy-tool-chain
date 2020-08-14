@@ -1,0 +1,16 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "ToyReact.createElement"
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["istanbul"]
+    }
+  }
+}

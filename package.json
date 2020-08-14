@@ -1,0 +1,11 @@
+{
+  "name": "generator-toytool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JackQ",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "yeoman-generator": "^4.11.0"
+  }
+}
